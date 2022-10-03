@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="css/onsenui.css" rel="stylesheet" type="text/css">
+        <link href="css/font_awesome/css/fontawesome.css" rel="stylesheet" type="text/css"/>
+        <link href="css/onsen-css-components.min.css" rel="stylesheet" type="text/css">
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <body>
+
+    <ons-splitter>
+        <!--        <ons-splitter-side id="menu" side="left" width="220px" collapse swipeable>
+                    <ons-page>
+                        <ons-list>
+                            <ons-list-item onclick="fn.load('busqueda.html')" tappable>
+                                Buscar
+                            </ons-list-item>
+        
+        
+                        </ons-list>
+                    </ons-page>
+                </ons-splitter-side>-->
+        <ons-splitter-content id="content" page="comenzar.html"></ons-splitter-content>
+    </ons-splitter>
+
+    <template id="comenzar.html">
+        <ons-page id="comenzar">
+            <div class="progress-bar barra progress-bar--material progress-bar--indeterminate"></div>
+            <div id='pagina'>
+                <div id="dBotones">
+                    <img src="img/logo.png" id="imgLogo" alt="">
+                    <p id="pDescripcion">Sólo para verdaderos cinéfilos &#128521;</p>
+                    <input type="button" id="btnSiguiente" class="btns" value="JUGAR"><br>
+                    <input type="button" id="btnListar" class="btns" value="VER RANKING">
+                </div>
+            </div>
+        </ons-page>
+    </template>
+
+    <template id="tutorial.html">
+        <ons-page id="tutorial">
+            <div class="progress-bar barra progress-bar--material progress-bar--indeterminate"></div>
+            <div id='pagina2'>
+                <i id="btnVolver" class="fas fa-angle-left"></i>
+                <div id="dTutorial">
+                    <h1 id="hTutorial">¿Cómo jugar?</h1>
+                    <p id="pTutorial">A continuación aparecerán películas aleatorias, tienes 1 minuto para adivinar en qué año se estrenaron.</p>
+                    <input type="button" id="btnJugar" class="btns" value="JUGAR">
+                </div>
+            </div>
+        </ons-page>
+    </template>
+
+    <template id="juego.html">
+        <ons-page id="juego">
+            <!--            <ons-toolbar>
+                            <div class="left">
+                                <ons-toolbar-button onclick="fn.open()">
+                                    <ons-icon icon="md-menu"></ons-icon>
+                                </ons-toolbar-button>
+                            </div>
+                            <div class="center">
+                            </div>
+                        </ons-toolbar>-->
+            <div class="pagina">
+                <i id="btnVolver" class="fas fa-angle-left"></i>
+                <p id="pPuntos"></p>
+                <p id="pTiempo"></p>
+                <div id="dPelicula">
+                    <h2 id="hTitulo">¿En qué año se estrenó?</h2>
+                    <div id="dImgs">
+                    </div>
+                </div>
+                <h4 id="hNombre"></h4>
+                <div id="botones">
+
+                </div>
+            </div>
+        </ons-page>
+    </template>
+
+    <template id="resultados.html">
+        <ons-page id="resultados">
+            <div id="resultado">
+                <h2 id="hTiempoTerminado">¡Se acabó el tiempo!</h2>
+                <p id="pTuPuntaje">Tu puntaje:</p>
+                <div id="dAgregar">
+                    <p id="pResultado"></p>
+                    <i id="btnAgregar" class="fas fa-plus-circle"></i><br>
+                    <div id="dTxtNombre">
+                        <input type="text" maxlength="12" id="txtNombre" placeholder="Nombre">
+                        <input type="button" id="btnConfirmar" value="OK">
+                    </div>
+                </div>
+                <input class="btns" id='btnReiniciar' type="button" value="REINICIAR"><br>
+                <input type="button" id="btnSalir" class="btns" value="SALIR">
+            </div>
+        </ons-page>
+    </template>
+
+    <template id="rankings.html">
+        <ons-page id="rankings">
+            <div class="pagina">
+                <i id="btnVolver" class="fas fa-angle-left"></i>
+                <table align="center" id="tbRegistros">
+                    <thead>
+                        <tr>
+                            <th>N°</th>
+                            <th>Nombre</th>
+                            <th>Puntaje</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbRecords">
+
+                    </tbody>
+                </table>
+            </div>
+        </ons-page>
+    </template>
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/onsenui.min.js"></script>
+    <script src="js/codigo.js" type="text/javascript"></script>
+</body>
+</html>

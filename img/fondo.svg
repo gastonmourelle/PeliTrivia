@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 140.98 250.09" style="enable-background:new 0 0 140.98 250.09;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:url(#_x31__2_);}
+	.st1{fill:url(#_x32__1_);}
+	.st2{fill:url(#_x33__1_);}
+	.st3{fill:url(#_x34__1_);}
+</style>
+<linearGradient id="_x31__2_" gradientUnits="userSpaceOnUse" x1="0" y1="222.2454" x2="45.9601" y2="222.2454">
+	<stop  offset="0" style="stop-color:#4548B9"/>
+	<stop  offset="1" style="stop-color:#1E185C"/>
+</linearGradient>
+<path id="_x31__1_" class="st0" d="M0,250.73v-56.97c4.88,3.47,8.78,7.82,10.78,12.58c1.41,3.35,1.64,6.31,1.64,9.09
+	c0,0.9-0.02,1.79-0.04,2.65c0,0,0,0.01,0,0.02c-0.06,3.7,0.07,7.21,2.89,11.1c6.66,9.18,17.14,4.99,25.23,12.82
+	c2.37,2.3,4.2,5.3,5.46,8.71L0,250.73L0,250.73z"/>
+<linearGradient id="_x32__1_" gradientUnits="userSpaceOnUse" x1="137.1648" y1="49.0275" x2="159.6315" y2="49.0275" gradientTransform="matrix(1 0 0 1 -18.1915 -11.4811)">
+	<stop  offset="0" style="stop-color:#4548B9"/>
+	<stop  offset="1" style="stop-color:#1E185C"/>
+</linearGradient>
+<path id="_x32_" class="st1" d="M120.47,31.69c0.41-1.29,1.07-2.79,1.81-4.48c1.95-4.46,4.4-10.23,3.99-16.74
+	c-0.29-4.7-1.16-8.06-2.33-10.47l17.5,0v75.09c-4.13-1.22-8.66-3.41-12.58-7.31c-5.29-5.25-8.36-12.5-9.44-19.79
+	C118.56,42.26,118.96,36.51,120.47,31.69z"/>
+<linearGradient id="_x33__1_" gradientUnits="userSpaceOnUse" x1="103.0383" y1="234.4389" x2="141.8271" y2="234.4389">
+	<stop  offset="0" style="stop-color:#4548B9"/>
+	<stop  offset="1" style="stop-color:#1E185C"/>
+</linearGradient>
+<path id="_x33_" class="st2" d="M141.29,250.73h-23.43h-14.82c2.9-7.81,7.09-14.71,12.53-19.98c8.11-7.84,17.26-10.42,26.26-12.6"/>
+<linearGradient id="_x34__1_" gradientUnits="userSpaceOnUse" x1="-0.03" y1="32.1952" x2="52.1319" y2="32.1952">
+	<stop  offset="0" style="stop-color:#4548B9"/>
+	<stop  offset="1" style="stop-color:#1E185C"/>
+</linearGradient>
+<path id="_x34_" class="st3" d="M-0.03,0.06l52.01-0.14l0.13,1.58c0.14,2.94-0.36,6.02-2.09,8.4c-1.46,2.02-3.63,3.38-5.79,4.61
+	c-8.2,4.66-16.99,8.28-24.85,13.5C11.53,33.26,4.48,40.49,2.07,49.61c-1.28,4.84-1.36,9.91-2.1,14.86L-0.03,0.06z"/>
+</svg>
